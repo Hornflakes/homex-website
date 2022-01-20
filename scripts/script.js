@@ -11,7 +11,7 @@ servicii_dropdown.addEventListener("mouseleave", servicesDropdown);
 portofoliu_dropdown.addEventListener("mouseleave", portfolioDropdown);
 
 function home() {
-  window.location.href = "./home.html";
+  window.location.href = "./index.html";
 }
 function servicesDropdown() {
   servicii_dropdown.classList.toggle("show");
