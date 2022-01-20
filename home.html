@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <link rel="icon" href="assets/homex.png">
+    <title>Homex</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/e2fb6cac62.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script type="text/javascript"></script>  
+  </head>
+  <body>
+    <header>
+      <span class="contact-info">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:+40 770 696 613">+40 770 696 613</a>
+      </span>
+      <span class="contact-info">
+        <i class="fas fa-clock"></i>
+        <span>Luni-Vineri 9:00-17:00</span>
+      </span>
+      <span class="contact-info">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:construct@homex.com">construct@homex.com</a>
+      </span>
+      <span class="social-media">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </span>
+    </header>
+    <nav>
+      <span id="logo">
+        <img id="logo-img" src="assets/homex.png" alt="Homex Logo">
+        <span id="logo-txt">OMEX</span>
+      </span>
+      <span id="nav-bar">
+        <a class="nav-bar-link" id="servicii-link">Servicii <i class="fas fa-chevron-down"></i></a>
+        <a class="nav-bar-link" id="portofoliu-link">Portofoliu <i class="fas fa-chevron-down"></i></a>
+        <a href="echipa.html" class="nav-bar-link">Echipă</a>
+        <a href="contact.html" class="nav-bar-link">Contact</a>
+        <div id="servicii-dropdown" class="dropdown">
+          <div class="h-line"></div>
+          <a href="servicii-case.html">Case la roșu</a>
+          <a href="servicii-finisaje.html">Finisaje</a>
+          <a href="servicii-instalatii.html">Instalații</a>
+          <a id="bottom-a" href="servicii-renovari.html">Renovări</a>
+        </div>
+        <div id="portofoliu-dropdown" class="dropdown">
+          <div class="h-line"></div>
+          <a href="portofoliu-case.html">Case la roșu</a>
+          <a href="portofoliu-finisaje.html">Finisaje</a>
+          <a href="portofoliu-instalatii.html">Instalații</a>
+          <a id="bottom-a" href="portofoliu-renovari.html">Renovări</a>
+        </div>
+      </span>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="hamburger-menu">
+        <p class="hamburger-p">Servicii</p>
+        <a href="servicii-case.html">> Case la roșu</a>
+        <a href="servicii-finisaje.html">> Finisaje</a>
+        <a href="servicii-instalatii.html">> Instalații</a>
+        <a href="servicii-renovari.html">> Renovări</a>
+        <p class="hamburger-p">Portofoliu</p>
+        <a href="portofoliu-case.html">> Case la roșu</a>
+        <a href="portofoliu-finisaje.html">> Finisaje</a>
+        <a href="portofoliu-instalatii.html">> Instalații</a>
+        <a href="portofoliu-renovari.html">>  Renovări</a>
+        <a href="echipa.html">Echipă</a>
+        <a id="bottom-a" href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <section id="intro-section">
+      <p id="services-over-text">15 ani de experiență</p>
+      <h1>Serviciile noastre</h1>
+      <div id="clienti">
+        <p class="upper-box-text">1000</p>
+        <p class="lower-box-text">de clienți</p>
+      </div>
+      <div id="servicii">
+        <div id="case-in-rosu">
+          <i class="fas fa-home service-icons"></i>
+          <h2>Case la roșu</h2>
+          <p class="services-text">Executăm eficient și profesionalist toată gama de lucrări de construcții și suntem în pas cu ultimele tehnologii în materie de construcții.</p>
+        </div>
+        <div id="finisaje">
+          <i class="fas fa-drafting-compass service-icons"></i>
+          <h2>Finisaje</h2>
+          <p class="services-text">Efectuăm finisaje interioare și exterioare și decorațiuni. Echipa noastră este formată din designeri licențiați, dar mai ales iubitori de artă.</p>
+        </div>
+        <div id="instalatii">
+          <span id="combo-icons">
+            <i class="fas fa-faucet service-icons"></i>
+            <i class="fas fa-bolt service-icons"></i>
+          </span>
+          <h2>Instalații</h2>
+          <p class="services-text">Specialiștii noștri realizează instalații electrice, termice și sanitare. Executăm sisteme HVAC sustenabile, cu impact minim asupra mediului.</p>
+        </div>
+        <div id="renovari">
+          <i class="fas fa-paint-roller service-icons"></i>
+          <h2>Renovări</h2>
+          <p class="services-text">Furnizăm servicii de renovare și reabilitare, atât interioare cât și exterioare. Reabilităm inclusiv piscine de orice dimensiune.</p>
+        </div>
+      </div>
+      <div id="proiecte">
+        <p class="upper-box-text">1500</p>
+        <p class="lower-box-text">de proiecte</p>
+      </div>
+      <div id="pop-up">
+        <p id="pop-up-txt-1">Te vom contacta</p>
+        <p id="pop-up-txt-2">în maxim 30 de minute</p>
+        <i id="close-pop-up" class="fas fa-times"></i>
+        <form class="offer-form">
+          <input id="input-nume" type="text" placeholder="Introduceți numele" name="name" required>     
+          <input id="input-email"  type="email" placeholder="Introduceți email-ul" name="email" required>
+          <input id="input-serviciu"  type="text" placeholder="Introduceți serviciul" name="service" required>
+          <input id="send-email-button" type="button" value="Trimite">
+        </form>
+      </div>
+      <button id="intent-btn">Doresc o ofertă</button>
+      <a href="servicii.html" class="button-a"><button id="more-btn">Mai multe</button></a>
+    </section>
+    <section id="portfolio-section">
+      <p id="portfolio-over-text">Ne mândrim cu munca noastră</p>
+      <h3>Lucrările noastre</h3>
+      <span id="portfolio-buttons">
+        <button class="portfolio-button active" id="portfolio-toate"><p class="unskew">Toate</p></button>
+        <button class="portfolio-button" id="portfolio-case"><p class="unskew">Case la roșu</p></button>
+        <button class="portfolio-button" id="portfolio-finisaje"><p class="unskew">Finisaje</p></button>
+        <button class="portfolio-button" id="portfolio-instalatii"><p class="unskew">Instalații</p></button>
+        <button class="portfolio-button" id="portfolio-renovari"><p class="unskew">Renovări</p></button>
+      </span>
+      <div class="portfolio-row">
+        <div class="portfolio-column case">
+          <img class="portfolio-img" src="assets/casa-la-rosu-1.jpg">
+        </div>
+        <div class="portfolio-column finisaje">
+          <img class="portfolio-img" src="assets/finisaje-exterioare-1.jpg">
+        </div>
+        <div class="portfolio-column finisaje">
+          <img class="portfolio-img" src="assets/finisaje-interioare-1.jpg">
+        </div>
+      </div>
+      <div class="portfolio-row">
+        <div class="portfolio-column instalatii">
+          <img class="portfolio-img" src="assets/instalatii-sanitare-1.jpg">
+        </div>
+        <div class="portfolio-column instalatii">
+          <img class="portfolio-img" src="assets/instalatii-electrice-1.jpg">
+        </div>
+        <div class="portfolio-column renovari">
+          <img class="portfolio-img" src="assets/renovari-1.jpg">
+        </div>
+      </div>
+      <a href="portofoliu.html" class="button-a"><button id="all-btn">Vezi tot</button></a>
+    </section>
+    <section id="review-section">
+      <h4>Recenzii clienți</h4>
+      <div id="client-div">
+        <img id="client-img" src="assets/client-1.jpeg" alt="Client Picture" style="margin-left:12.5%; border-radius: 50%; height: 10rem;">
+        <div id="client-info-div">
+          <p id="client-name-text">Leonard Pârgaru</p>
+          <p id="client-location-text">Sânmartin, Bihor</p>
+          <hr id="review-hr"/>
+        </div>
+      </div>
+      <div id="review-div">
+        <div id="left-review-btn" class="mobile-display-none"><i class="fas fa-chevron-left"></i></div>
+        <p id="review-text">Dacă vreți o treabă bine facută, de calitate, rapidă și eficientă, puteți apela cu încredere la serviciile firmei Homex SRL, unde veți găsi oameni de treabă, profesioniști, specialiști în amenajări interioare (rețele electrice, zugrăveli, tencuit, pus parchet, gresie, faianță), practic tot ceea de ce are nevoie omul în casă. Știu că eu am făcut-o și nu regret absolut deloc, au lucrat rapid, de calitate si la prețuri acceptabile! Recomand cu caldura!</p>
+        <div id="right-review-btn" class="mobile-display-none"><i class="fas fa-chevron-right"></i></div>
+      </div>
+      <div id="review-squares">
+        <div class="review-square" id="review-first"></div>
+        <div class="review-square" id="review-second"></div>
+        <div class="review-square" id="review-third"></div>
+      </div>
+    </section>
+    <section id="team-section">
+      <h5>Echipa noastră</h5>
+      <div class="team-row">
+        <div class="team-column">
+          <img src="assets/instalator.jpg" onclick="return sendEmail()">
+          <p class="teammate-name">Vlad Ardelean</p>
+          <p class="teammate-prof">Instalator</p>
+        </div>
+        <div class="team-column">
+          <img src="assets/electrician.jpg">
+          <p class="teammate-name">Sebestyén Sándor</p>
+          <p class="teammate-prof">Electrician</p>
+        </div>
+        <div class="team-column">
+          <img src="assets/bajat-finisaje.jpg">
+          <p class="teammate-name">Laurențiu Pop</p>
+          <p class="teammate-prof">Finisor</p>
+        </div>
+        <div class="team-column">
+          <img src="assets/bajat-zidar.jpg">
+          <p class="teammate-name">Adrian Copil</p>
+          <p class="teammate-prof">Zidar</p>
+        </div>
+        <div class="team-column">
+          <img src="assets/sri-lankez-pe-acoperis.jpg">
+          <p class="teammate-name">Dinesh Chathuranga</p>
+          <p class="teammate-prof">Țiglar</p>
+        </div>
+      </div>
+      <a href="echipa.html" class="button-a"><button id="about-btn">Despre noi</button></a>
+      <img id="fence-img" src="assets/fence-img.png">
+    </section>
+    <footer>
+      <div id="footer-info">
+        <div id="footer-logo">
+          <img id="footer-logo-img" src="assets/homex-footer.png" alt="Homex Logo">
+          <p id="footer-logo-txt">OMEX</p>
+        </div>
+        <p id="footer-txt">De la proiect la realitate.</p>
+        <p id="follow-txt">Urmărește-ne</p>
+        <span class="footer-social-media">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </span>
+      </div>
+      <div id="footer-links">
+        <div class="footer-div mobile-display-none">
+          <p class="footer-title">Navigație</p>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="servicii.html" class="foo-txt">Servicii</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="portofoliu.html" class="foo-txt">Portofoliu</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="echipa.html" class="foo-txt">Echipă</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="contact.html" class="foo-txt">Contact</a>
+          </div>
+        </div>
+        <div class="footer-div mobile-display-none">
+          <p class="footer-title">Servicii</p>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="servicii-case.html" class="foo-txt txt-no-wrap">Case în roșu</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="servicii-finisaje.html" class="foo-txt">Finisaje</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="servicii-instalatii.html" class="foo-txt">Instalații</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="servicii-renovari.html" class="foo-txt">Renovări</a>
+          </div>
+        </div>
+        <div class="footer-div mobile-display-none">
+          <p class="footer-title">Portofoliu</p>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="portofoliu-case.html" class="foo-txt txt-no-wrap">Case în roșu</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="portofoliu-finisaje.html" class="foo-txt">Finisaje</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="portofoliu-instalatii.html" class="foo-txt">Instalații</a>
+          </div>
+          <div class="foo-div">
+            <div class="foo-square"></div>
+            <a href="portofoliu-renovari.html" class="foo-txt">Renovări</a>
+          </div>
+        </div>
+        <div class="footer-div"> 
+          <p class="footer-title">Contacte</p>
+          <div class="foo-div">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="foo-txt">420, Cucuieții  de Munte, Bihor</p>
+          </div>
+          <div class="foo-div">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+40 770 696 613"class="foo-txt">+40 770 696 613</a>
+          </div>
+          <div class="foo-div">
+            <i class="fas fa-clock"></i>
+            <p class="foo-txt">Luni-Vineri 9:00-17:00</p>
+          </div>
+          <div class="foo-div">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:construct@homex.com" class="foo-txt">construct@homex.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copyright-div"><p id="copyright-txt">Copyright © Homex SRL™ 2022</p></div>
+    <div class="black-tint"></div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
