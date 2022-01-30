@@ -197,26 +197,33 @@ section {
   border-top: 3px solid #1A1A1A;
   background-size: cover;
 }
+#servicii-content{
+  background-color: white;
+  padding: 3%;
+  margin-top: 4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 h1 {
   color: #1A1A1A;
   font-size: 3.3rem;
   line-height: 3.3rem;
   font-weight: 800;
-  margin-top: 4rem;
-  padding-left: 10%;
+  margin-top: 0;
 }
 section p {
   color: #1A1A1A;
-  padding-left: 10%;
-  padding-right: 10%;
   font-size: 1.25rem;
   font-weight: 700;
-  max-width: 60%;
+  max-width: 39%;
+  margin-left: 1%;
+  display: inline-block;
+  margin-top: 0;
+  vertical-align: top;
 }
 #section-img {
   height: 15rem;
-  margin-left: 10%;
-  max-width: 90%;
+  max-width: 59%;
   box-shadow: 0px 2px 3px rgba(20,20,20,0.4);
 }
 #pop-up {
@@ -303,10 +310,10 @@ section p {
   width: 15rem;
   max-width: 43.75%;
   margin-top: 1rem;
-  margin-left: 10%;
   font-size: 1.45rem;
   font-weight: 600;
   transition: .4s;
+  display: block;
 }
 #intent-btn:hover {
   color: white;
@@ -456,18 +463,12 @@ a.foo-txt:hover {
   section {
     border-top: 1px solid #1A1A1A;
   }
-  h1 {
-    padding-left: 5%;
-  }
   section p {
-    padding-left: 5%;
+    margin-top: 10px;
     max-width: initial;
   }
   #section-img {
-    margin-left: 5%;
-  }
-  #intent-btn {
-    margin-left: 5%;
+    max-width: 90%;
   }
   .mobile-display-none {
     display: none;
