@@ -3,4 +3,4 @@
 ### No frameworks or libraries used.
 
 ## Preview
-![screenshot](https://imgur.com/a/vJ8f4jl.png)
+![screenshot](https://i.imgur.com/H0gxaFb.png)
